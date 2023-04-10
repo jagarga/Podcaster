@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npm run test:push || echo -e "\n \033[0;31m Husky - pre-push hook exited because some test has failed or test coverage threshold is not completed \033[0m \n"

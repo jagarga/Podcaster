@@ -1,0 +1,13 @@
+# Dependencies.
+
+node_modules/
+
+# Build folders.
+
+.dev/
+.dist/
+.tmp/
+
+# Include config folders.
+
+!/.configs
